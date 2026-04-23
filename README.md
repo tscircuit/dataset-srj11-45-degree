@@ -10,8 +10,8 @@ Current samples:
 
 - `sample001`: wide rising tunnel between two diamond pads
 - `sample002`: wide falling tunnel between two diamond pads
-- `sample003`: narrower rising diamond tunnel
-- `sample004`: narrower falling diamond tunnel
+- `sample003`: rising tunnel using two-pad diagonal stretches with an about-0.1mm sliver
+- `sample004`: falling tunnel mirrored with two-pad diagonal stretches
 - `sample005`: asymmetric rising diamond tunnel with a larger entry obstacle
 - `sample006`: asymmetric falling diamond tunnel with mirrored obstacle sizes
 - `sample007`: wide tunnel between two tilted rectangular pads
