@@ -16,6 +16,7 @@ type RotatedPadObstacleProps = {
 	name: string;
 	pcbX: number;
 	pcbY: number;
+	layer?: string;
 	padWidth?: number | string;
 	padHeight?: number | string;
 	pcbRotation?: number;
@@ -39,7 +40,7 @@ export const SingleTraceBoard = ({
 	traceRouteHints,
 	children,
 }: SingleTraceBoardProps) => (
-	<board width={width} height={height} layers={2}>
+	<board width={width} height={height} layers={2} routingDisabled>
 		<testpoint
 			name="TP1"
 			footprintVariant="pad"
@@ -67,11 +68,14 @@ export const RotatedPadObstacle = ({
 	name,
 	pcbX,
 	pcbY,
+	layer,
 	padWidth = 2.4,
 	padHeight = 2.4,
 	pcbRotation = 45,
 }: RotatedPadObstacleProps) => (
 	<chip
+		// @ts-expect-error
+		layer={layer ?? "top"}
 		name={name}
 		pcbX={pcbX}
 		pcbY={pcbY}
