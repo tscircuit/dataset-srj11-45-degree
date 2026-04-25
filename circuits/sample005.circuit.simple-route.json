@@ -1,0 +1,196 @@
+{
+  "simpleRouteJson": {
+    "bounds": {
+      "minX": -9.5,
+      "maxX": 9.5,
+      "minY": -4.45,
+      "maxY": 4.45
+    },
+    "obstacles": [
+      {
+        "type": "oval",
+        "layers": [
+          "top"
+        ],
+        "center": {
+          "x": -7.4,
+          "y": -1.4
+        },
+        "width": 1.1,
+        "height": 1.1,
+        "connectedTo": [
+          "pcb_smtpad_0",
+          "connectivity_net0",
+          "source_trace_0",
+          "source_port_0",
+          "source_port_1",
+          "pcb_smtpad_0",
+          "pcb_port_0",
+          "pcb_smtpad_1",
+          "pcb_port_1"
+        ]
+      },
+      {
+        "type": "oval",
+        "layers": [
+          "top"
+        ],
+        "center": {
+          "x": 7.4,
+          "y": 1.4
+        },
+        "width": 1.1,
+        "height": 1.1,
+        "connectedTo": [
+          "pcb_smtpad_1",
+          "connectivity_net0",
+          "source_trace_0",
+          "source_port_0",
+          "source_port_1",
+          "pcb_smtpad_0",
+          "pcb_port_0",
+          "pcb_smtpad_1",
+          "pcb_port_1"
+        ]
+      },
+      {
+        "type": "rect",
+        "layers": [
+          "top"
+        ],
+        "center": {
+          "x": -1.9815417574639125,
+          "y": 2.818458242536088
+        },
+        "width": 1.4575,
+        "height": 2.6339727599198897,
+        "connectedTo": [
+          "pcb_smtpad_2",
+          "connectivity_net11",
+          "source_port_2",
+          "pcb_smtpad_2",
+          "pcb_port_2"
+        ]
+      },
+      {
+        "type": "rect",
+        "layers": [
+          "top"
+        ],
+        "center": {
+          "x": -2.918458242536088,
+          "y": 1.8815417574639124
+        },
+        "width": 1.4575,
+        "height": 2.6339727599198897,
+        "connectedTo": [
+          "pcb_smtpad_2",
+          "connectivity_net11",
+          "source_port_2",
+          "pcb_smtpad_2",
+          "pcb_port_2"
+        ]
+      },
+      {
+        "type": "rect",
+        "layers": [
+          "top"
+        ],
+        "center": {
+          "x": 2.9742640687119284,
+          "y": -2.8742640687119287
+        },
+        "width": 2.4041630560342617,
+        "height": 1.32,
+        "connectedTo": [
+          "pcb_smtpad_3",
+          "connectivity_net12",
+          "source_port_3",
+          "pcb_smtpad_3",
+          "pcb_port_3"
+        ]
+      },
+      {
+        "type": "rect",
+        "layers": [
+          "top"
+        ],
+        "center": {
+          "x": 2.1257359312880713,
+          "y": -2.0257359312880716
+        },
+        "width": 2.4041630560342617,
+        "height": 1.32,
+        "connectedTo": [
+          "pcb_smtpad_3",
+          "connectivity_net12",
+          "source_port_3",
+          "pcb_smtpad_3",
+          "pcb_port_3"
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "name": "source_trace_0",
+        "source_trace_id": "source_trace_0",
+        "pointsToConnect": [
+          {
+            "x": -7.4,
+            "y": -1.4,
+            "layer": "top",
+            "pointId": "pcb_port_0",
+            "pcb_port_id": "pcb_port_0"
+          },
+          {
+            "x": 7.4,
+            "y": 1.4,
+            "layer": "top",
+            "pointId": "pcb_port_1",
+            "pcb_port_id": "pcb_port_1"
+          }
+        ]
+      }
+    ],
+    "layerCount": 2,
+    "minTraceWidth": 0.1
+  },
+  "connMap": {
+    "netMap": {
+      "connectivity_net0": [
+        "source_trace_0",
+        "source_port_0",
+        "source_port_1",
+        "pcb_smtpad_0",
+        "pcb_port_0",
+        "pcb_smtpad_1",
+        "pcb_port_1"
+      ],
+      "connectivity_net11": [
+        "source_port_2",
+        "pcb_smtpad_2",
+        "pcb_port_2"
+      ],
+      "connectivity_net12": [
+        "source_port_3",
+        "pcb_smtpad_3",
+        "pcb_port_3"
+      ]
+    },
+    "idToNetMap": {
+      "source_trace_0": "connectivity_net0",
+      "source_port_0": "connectivity_net0",
+      "source_port_1": "connectivity_net0",
+      "pcb_smtpad_0": "connectivity_net0",
+      "pcb_port_0": "connectivity_net0",
+      "pcb_smtpad_1": "connectivity_net0",
+      "pcb_port_1": "connectivity_net0",
+      "source_port_2": "connectivity_net11",
+      "pcb_smtpad_2": "connectivity_net11",
+      "pcb_port_2": "connectivity_net11",
+      "source_port_3": "connectivity_net12",
+      "pcb_smtpad_3": "connectivity_net12",
+      "pcb_port_3": "connectivity_net12"
+    }
+  }
+}
