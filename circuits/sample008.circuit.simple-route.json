@@ -58,11 +58,11 @@
         "top"
       ],
       "center": {
-        "x": -2.076776695296637,
-        "y": -2.1267766952966367
+        "x": -1.9,
+        "y": -1.95
       },
-      "width": 3.252691193458118,
-      "height": 0.55,
+      "width": 4.1,
+      "height": 1,
       "ccwRotationDegrees": 315,
       "connectedTo": [
         "pcb_smtpad_2",
@@ -78,51 +78,11 @@
         "top"
       ],
       "center": {
-        "x": -1.723223304703363,
-        "y": -1.7732233047033632
+        "x": 1.9,
+        "y": 1.95
       },
-      "width": 3.252691193458118,
-      "height": 0.55,
-      "ccwRotationDegrees": 315,
-      "connectedTo": [
-        "pcb_smtpad_2",
-        "connectivity_net11",
-        "source_port_2",
-        "pcb_smtpad_2",
-        "pcb_port_2"
-      ]
-    },
-    {
-      "type": "rect",
-      "layers": [
-        "top"
-      ],
-      "center": {
-        "x": 1.723223304703363,
-        "y": 1.7732233047033632
-      },
-      "width": 3.252691193458118,
-      "height": 0.55,
-      "ccwRotationDegrees": 315,
-      "connectedTo": [
-        "pcb_smtpad_3",
-        "connectivity_net12",
-        "source_port_3",
-        "pcb_smtpad_3",
-        "pcb_port_3"
-      ]
-    },
-    {
-      "type": "rect",
-      "layers": [
-        "top"
-      ],
-      "center": {
-        "x": 2.076776695296637,
-        "y": 2.1267766952966367
-      },
-      "width": 3.252691193458118,
-      "height": 0.55,
+      "width": 4.1,
+      "height": 1,
       "ccwRotationDegrees": 315,
       "connectedTo": [
         "pcb_smtpad_3",
@@ -161,5 +121,6 @@
   "minViaHoleDiameter": 0.2,
   "minViaPadDiameter": 0.3,
   "min_via_hole_diameter": 0.2,
-  "min_via_pad_diameter": 0.3
+  "min_via_pad_diameter": 0.3,
+  "minTraceToPadEdgeClearance": 0.1
 }
