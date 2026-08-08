@@ -1,3 +1,6 @@
 dist
+cosmos-export/
 node_modules
 .tscircuit
+.vercel
+.env*
