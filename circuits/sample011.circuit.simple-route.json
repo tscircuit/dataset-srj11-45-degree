@@ -198,11 +198,11 @@
         "top"
       ],
       "center": {
-        "x": 3.6,
-        "y": -0.5
+        "x": 6,
+        "y": 2.4
       },
-      "width": 4,
-      "height": 0.8,
+      "width": 2,
+      "height": 0.9,
       "ccwRotationDegrees": 45,
       "connectedTo": [
         "pcb_smtpad_9",
@@ -218,11 +218,11 @@
         "top"
       ],
       "center": {
-        "x": 6,
-        "y": 2.4
+        "x": 8.4,
+        "y": -1.7
       },
-      "width": 2,
-      "height": 0.9,
+      "width": 3.1,
+      "height": 0.8,
       "ccwRotationDegrees": 45,
       "connectedTo": [
         "pcb_smtpad_10",
@@ -238,26 +238,6 @@
         "top"
       ],
       "center": {
-        "x": 8.4,
-        "y": -1.7
-      },
-      "width": 3.1,
-      "height": 0.8,
-      "ccwRotationDegrees": 45,
-      "connectedTo": [
-        "pcb_smtpad_11",
-        "connectivity_net60",
-        "source_port_11",
-        "pcb_smtpad_11",
-        "pcb_port_11"
-      ]
-    },
-    {
-      "type": "rect",
-      "layers": [
-        "top"
-      ],
-      "center": {
         "x": 10.8,
         "y": 0
       },
@@ -265,11 +245,11 @@
       "height": 2,
       "ccwRotationDegrees": 45,
       "connectedTo": [
-        "pcb_smtpad_12",
-        "connectivity_net61",
-        "source_port_12",
-        "pcb_smtpad_12",
-        "pcb_port_12"
+        "pcb_smtpad_11",
+        "connectivity_net60",
+        "source_port_11",
+        "pcb_smtpad_11",
+        "pcb_port_11"
       ]
     },
     {
@@ -285,11 +265,11 @@
       "height": 1.6,
       "ccwRotationDegrees": 225,
       "connectedTo": [
-        "pcb_smtpad_13",
-        "connectivity_net62",
-        "source_port_13",
-        "pcb_smtpad_13",
-        "pcb_port_13"
+        "pcb_smtpad_12",
+        "connectivity_net61",
+        "source_port_12",
+        "pcb_smtpad_12",
+        "pcb_port_12"
       ]
     },
     {
@@ -305,6 +285,26 @@
       "height": 0.9,
       "ccwRotationDegrees": 135,
       "connectedTo": [
+        "pcb_smtpad_13",
+        "connectivity_net62",
+        "source_port_13",
+        "pcb_smtpad_13",
+        "pcb_port_13"
+      ]
+    },
+    {
+      "type": "rect",
+      "layers": [
+        "bottom"
+      ],
+      "center": {
+        "x": -6,
+        "y": -2.2
+      },
+      "width": 3.1,
+      "height": 0.8,
+      "ccwRotationDegrees": 225,
+      "connectedTo": [
         "pcb_smtpad_14",
         "connectivity_net63",
         "source_port_14",
@@ -318,8 +318,8 @@
         "bottom"
       ],
       "center": {
-        "x": -6,
-        "y": -2.2
+        "x": -3.6,
+        "y": 0.2
       },
       "width": 3.1,
       "height": 0.8,
@@ -338,12 +338,12 @@
         "bottom"
       ],
       "center": {
-        "x": -3.6,
-        "y": 0.2
+        "x": -0.6,
+        "y": 2.15
       },
-      "width": 3.1,
-      "height": 0.8,
-      "ccwRotationDegrees": 225,
+      "width": 2.4,
+      "height": 0.9,
+      "ccwRotationDegrees": 135,
       "connectedTo": [
         "pcb_smtpad_16",
         "connectivity_net65",
@@ -358,12 +358,12 @@
         "bottom"
       ],
       "center": {
-        "x": -0.6,
-        "y": 2.15
+        "x": 1.2,
+        "y": -1.9
       },
-      "width": 2.4,
-      "height": 0.9,
-      "ccwRotationDegrees": 135,
+      "width": 3.5,
+      "height": 0.8,
+      "ccwRotationDegrees": 225,
       "connectedTo": [
         "pcb_smtpad_17",
         "connectivity_net66",
@@ -378,10 +378,10 @@
         "bottom"
       ],
       "center": {
-        "x": 1.2,
-        "y": -1.9
+        "x": 3.6,
+        "y": -0.5
       },
-      "width": 3.5,
+      "width": 4,
       "height": 0.8,
       "ccwRotationDegrees": 225,
       "connectedTo": [
@@ -398,11 +398,11 @@
         "bottom"
       ],
       "center": {
-        "x": 3.6,
-        "y": -0.5
+        "x": 6,
+        "y": 2.4
       },
-      "width": 4,
-      "height": 0.8,
+      "width": 2,
+      "height": 0.9,
       "ccwRotationDegrees": 225,
       "connectedTo": [
         "pcb_smtpad_19",
@@ -418,10 +418,10 @@
         "bottom"
       ],
       "center": {
-        "x": 3.6,
-        "y": -0.5
+        "x": 8.4,
+        "y": -1.7
       },
-      "width": 4,
+      "width": 3.1,
       "height": 0.8,
       "ccwRotationDegrees": 225,
       "connectedTo": [
@@ -438,46 +438,6 @@
         "bottom"
       ],
       "center": {
-        "x": 6,
-        "y": 2.4
-      },
-      "width": 2,
-      "height": 0.9,
-      "ccwRotationDegrees": 225,
-      "connectedTo": [
-        "pcb_smtpad_21",
-        "connectivity_net70",
-        "source_port_21",
-        "pcb_smtpad_21",
-        "pcb_port_21"
-      ]
-    },
-    {
-      "type": "rect",
-      "layers": [
-        "bottom"
-      ],
-      "center": {
-        "x": 8.4,
-        "y": -1.7
-      },
-      "width": 3.1,
-      "height": 0.8,
-      "ccwRotationDegrees": 225,
-      "connectedTo": [
-        "pcb_smtpad_22",
-        "connectivity_net71",
-        "source_port_22",
-        "pcb_smtpad_22",
-        "pcb_port_22"
-      ]
-    },
-    {
-      "type": "rect",
-      "layers": [
-        "bottom"
-      ],
-      "center": {
         "x": 10.8,
         "y": 0
       },
@@ -485,11 +445,11 @@
       "height": 2,
       "ccwRotationDegrees": 225,
       "connectedTo": [
-        "pcb_smtpad_23",
-        "connectivity_net72",
-        "source_port_23",
-        "pcb_smtpad_23",
-        "pcb_port_23"
+        "pcb_smtpad_21",
+        "connectivity_net70",
+        "source_port_21",
+        "pcb_smtpad_21",
+        "pcb_port_21"
       ]
     }
   ],

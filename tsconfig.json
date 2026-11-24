@@ -14,8 +14,9 @@
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "types": [
-      "tscircuit"
+      "tscircuit",
+      "bun",
+      "node"
     ]
   }
 }
-

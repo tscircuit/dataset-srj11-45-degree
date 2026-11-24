@@ -13,10 +13,15 @@
     "build": "tsci build",
     "snapshot": "tsci snapshot",
     "snapshot:update": "tsci snapshot --update",
-    "start": "tsci dev"
+    "start": "tsci dev",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
+    "@types/bun": "1.3.12",
+    "@types/node": "22.19.17",
     "@types/react": "^19.2.7",
-    "tscircuit": "^0.0.1784"
+    "tscircuit": "^0.0.1784",
+    "typescript": "5.9.3"
   }
 }
